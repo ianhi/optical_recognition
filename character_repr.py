@@ -55,10 +55,8 @@ class Char_Repr:
 
     def find_points(self, angle):
         """
-        returns an array of size
-        2 * self.max_lines
-        giving the distance to start and stop of each line from
-        self.center_of_mass along angle
+        returns a list of all lines encountered in start, stop, start, stop form
+        distances are from self.center_of_mass along angle
         """
         angle_rads = angle * 1.0 / 360 * 2 * pi
         points = []
