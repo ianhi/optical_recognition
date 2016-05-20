@@ -5,3 +5,5 @@ def main():
     p = Picture("training_data/a1.png")
     c = Char_Repr(p)
     print(c.points)
+
+main()
